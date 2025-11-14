@@ -70,6 +70,8 @@ a {
 
 }
 
+/* commento di Donato */
+
 .col{
     flex-basis: calc(100% / 2);
 }
