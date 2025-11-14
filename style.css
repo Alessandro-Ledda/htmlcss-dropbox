@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn, .btn-price{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+.menu-left, .menu-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/*SEZIONE JUMBO*/
+
+.jumbo-container{
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 600px;
+    margin-top: 65px;
+}
+
+.jumbo-section{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.title-jumbo{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.jumbo-content{
+    display: flex;
+    align-items: center;
+
+}
+
+.col{
+    flex-basis: calc(100% / 2);
+}
+
+.jumbo-content-right{
+    position: relative;
+}
+
+
+.img-jumbo{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    right: 70px;
+    bottom: -350px;
+}
+
+.jumbo-content-left{
+    flex-grow: 1;
+}
+
+
+.a-jumbo{
+    padding: 50px 0 50px 0;
+}
+
+.icon-link{
+    padding-top: 80px;
+}
+
+/* Section business-plane*/
+
+.divisore{
+    border: 1px solid ghostwhite;
+    margin-top: 100px;
+}
+
+.b-plane-container{
+    width: 900px;
+    margin: 20px auto;
+
+}
+
+.choice{
+    display: flex;
+    gap: 30px;
+    padding: 30px 0 30px 0;
+    margin-bottom: 30px;
+}
+
+.content-price{
+    display: flex;
+    gap: 30px;
+}
+
+.column{
+    flex-basis: calc(100% / 3 );
+    border: 1px solid lightslategray;
+}
+
+
+.type-service{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightslategray;
+    
+}
+
+.intestazione{
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+.column li{
+    padding-bottom: 30px;
+    width: 75%;
+}
+
+.btn-price{
+    margin-left: 10px;
+}
+.column .small-divisor{
+    margin-left: 10px;
+}
+
+.link-buy{
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+/*SEZIONE SINGLE BUSINESS PLAN*/
+
+.container-ssp{
+    margin-top: 50px;
+}
+
+.content-sp{
+    width: 900px;
+    display: flex;
+    line-height: 30px;
+    margin:0 auto;
+    border: 1px solid lightslategray;
+}
+
+.content-sp-right{
+    padding-top: 10px;
+}
+
+.content-sp p{
+    padding-top: 30px;
+}
+
+.content-sp-right .btn{
+    font-size: 10px;
+}
+
+/*SEZIONE PARTNER*/
+
+.container-partner{
+    width: 900px;
+    margin: 100px auto;
+}
+
+.partner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+.partner-left img{
+    width: 600px;
+    height: auto;
+}
+
+.partner-right{
+    padding-bottom: 200px;
+}
+
+.partner-right p {
+    margin-bottom: 40px;
+}
+
+.partner-right a{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/*SEZIONE OPERAZIONI*/
+
+.container-operazioni{
+    width: 900px;
+    margin: 100px auto;
+}
+
+.title-operazioni{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.operazioni{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.single-operazioni img{
+    width: 200px;
+    height: auto;
+}
+
+.single-operazioni{
+    flex-basis: calc(100% / 3);
+}
+
+/*SEZIONE COMMUNITY*/
+
+.container-community{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+/*SEZIONE COMMUNITY*/
+
+.footer{
+    background-color: black;
+}
+
+.container-footer{
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.column-footer{
+    color: white;
+    display: flex;
+    flex-basis: calc(100% / 5);
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+.small-divisor{
+    border: 1px solid lightslategray;
+    max-width: 70px;
+}
+
+.linguage{
+    color: white;
+}
